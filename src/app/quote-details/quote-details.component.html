@@ -4,5 +4,6 @@
 <button (click)= 'quoteComplete(true)'>Complete</button>
 <p>{{quote.submitter}}</p>
 <p>
-    {{quote.postDate}}
+    {{quote.postDate|date}}
 </p>
+<p>Posted on {{quote.postDate|dateCount}} days ago</p>
