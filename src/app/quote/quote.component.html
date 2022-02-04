@@ -1,0 +1,21 @@
+<div class="container p-5">
+    <p>{{name}}</p>
+</div>
+<hr>
+<ul>
+    <div *ngFor=" let quote of quotes; let i = index" class="container">
+        <li > {{quote.quote}} </li>
+        <button (click)='toggleDetails(i)'>See more</button>
+        <app-quote-details *ngIf='quote.showAuthor' [quote]='quote'></app-quote-details>
+    </div>
+</ul>
+
+
+<!-- <div class="container">
+    <p *ngFor=" let quote of quotes">
+        {{quote.quote}} and {{quote.author}} by {{quote.submitter}}
+        <app-quote-details [quote]='quote'></app-quote-details>
+
+    </p>
+</div> -->
+
