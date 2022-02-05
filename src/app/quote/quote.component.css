@@ -2,7 +2,11 @@
     display: flex;
     justify-content: space-between;
     float: right;
-
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 13px;
+    border: none;
 }
 .cont{
     background-color: rgb(255, 255, 255);
