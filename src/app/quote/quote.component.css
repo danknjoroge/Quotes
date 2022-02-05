@@ -13,3 +13,17 @@
     margin-top: 15px;
     border-radius: 15px;
 }
+.postby{
+    color: rgb(0, 128, 111);
+    font-weight: bold;
+    font-style: italic;
+}
+.poston{
+    float: right;
+    color: orangered;
+
+}
+h2{
+    color: rgb(0, 128, 111);
+    font-weight: bold;
+}

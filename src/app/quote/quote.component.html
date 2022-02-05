@@ -11,12 +11,12 @@
             <h2>List Of Present Quotes</h2>
             <hr>
             <div *ngFor=" let quote of quotes; let i = index" class="container p-3 cont">
-                <button (click)='toggleDetails(i)' class="btn btn-warning m-3">See more</button>
+                <button (click)='toggleDetails(i)' class="btn btn-warning m-3">See More</button>
 
                 <p > {{quote.quote}} </p>
                 <app-quote-details *ngIf='quote.showAuthor' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
-                <p>Posted By: {{quote.submitter}}</p> 
-                <p>Posted on: {{quote.postDate|date:'short'}}</p>
+                <p class="poston">Posted on: {{quote.postDate|date:'short'}}</p>
+                <p class="postby">Posted By: {{quote.submitter}}</p> 
             </div>
         </div>
     </div>
