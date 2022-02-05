@@ -21,6 +21,8 @@
 .poston{
     float: right;
     color: orangered;
+    font-weight: bold;
+    font-style: italic;
 
 }
 h2{

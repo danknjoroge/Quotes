@@ -1,9 +1,8 @@
-<p>
-    AUTHOR::  {{quote.author|uppercase}}
-</p>
+
+<p class="post">Posted {{quote.postDate|dateCount}} days ago</p>
+<p class="auth"> AUTHOR::  {{quote.author|uppercase}}</p>
 <button (click)= 'deleteQuote(true)'class="btn btn-danger">Delete Quote</button>
 <!-- <p>{{quote.submitter}}</p>
 <p>
     {{quote.postDate|date}}
 </p> -->
-<p>Posted {{quote.postDate|dateCount}} days ago</p>
