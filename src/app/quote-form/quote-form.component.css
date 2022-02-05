@@ -4,3 +4,15 @@
     font-weight: bold;
     font-style: italic;
 }
+input[type="text"]{
+    margin-bottom:  11px;
+    border-radius: 15px;
+
+}
+input[type="date"]{
+    border-radius: 15px;
+    height: 39px;
+    margin-left:  11px;
+    width: 269px;
+    border-color: white;
+}
