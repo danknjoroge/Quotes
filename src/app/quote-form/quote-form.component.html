@@ -1,1 +1,16 @@
-<p>quote-form works!</p>
+
+<div class="container">
+    <h2>Post A New Quote</h2>
+    <hr>
+    <form action="" (ngSubmit)="postQuote() " #quoteForm="ngForm">
+        <label for="quote">Add Quote</label>
+        <input type="text" class="form-control" placeholder="Post you Favourite Quote" id="quote" [(ngModel)]="newQuote.quote" name="quote">
+        <label for="author">Author of The Quote</label>
+        <input type="text" class="form-control" placeholder="Enter Quote Author's name" id="author" [(ngModel)]="newQuote.author" name="author">
+        <label for="submitter">Your Name</label>
+        <input type="text" class="form-control" placeholder="Posted by YourName" id="submitter" [(ngModel)]="newQuote.submitter" name="submitter">
+        <label for="date">Select Today's Date</label>
+        <input type="date" id="postDate" [(ngModel)]="newQuote.postDate" name="postDate"> <br>
+        <button type="submit" class="btn btn-primary">Post Quote</button>
+    </form>
+</div>
