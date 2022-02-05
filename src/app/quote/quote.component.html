@@ -7,13 +7,16 @@
         <div class="col-md-6">
             <app-quote-form (addQuote)="addNewQuote($event) "></app-quote-form>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 ">
             <h2>List Of Present Quotes</h2>
             <hr>
-            <div *ngFor=" let quote of quotes; let i = index" class="container">
-                <p > {{quote.quote}} posted on {{quote.postDate|date:'short'}}</p>
-                <button (click)='toggleDetails(i)'>See more</button>
+            <div *ngFor=" let quote of quotes; let i = index" class="container p-3 cont">
+                <button (click)='toggleDetails(i)' class="btn btn-warning m-3">See more</button>
+
+                <p > {{quote.quote}} </p>
                 <app-quote-details *ngIf='quote.showAuthor' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+                <p>Posted By: {{quote.submitter}}</p> 
+                <p>Posted on: {{quote.postDate|date:'short'}}</p>
             </div>
         </div>
     </div>
