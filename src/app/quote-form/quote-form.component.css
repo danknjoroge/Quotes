@@ -3,6 +3,8 @@
     color: white;
     font-weight: bold;
     font-style: italic;
+    border-radius: 15px;
+    box-shadow: 3px 3px  white;
 }
 input[type="text"]{
     margin-bottom:  11px;
@@ -12,7 +14,16 @@ input[type="text"]{
 input[type="date"]{
     border-radius: 15px;
     height: 39px;
-    margin-left:  11px;
     width: 269px;
     border-color: white;
+    margin-bottom:  11px;
+    color: orangered;
+    font-weight: bold;
+}
+button{
+    color: orangered;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 22px;
 }
