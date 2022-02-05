@@ -2,13 +2,22 @@
     <p>{{name}}</p>
 </div>
 <hr>
-<ul>
-    <div *ngFor=" let quote of quotes; let i = index" class="container">
-        <li > {{quote.quote}} posted on {{quote.postDate|date:'short'}}</li>
-        <button (click)='toggleDetails(i)'>See more</button>
-        <app-quote-details *ngIf='quote.showAuthor' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            
+        </div>
+        <div class="col-md-6">
+            <div *ngFor=" let quote of quotes; let i = index" class="container">
+                <p > {{quote.quote}} posted on {{quote.postDate|date:'short'}}</p>
+                <button (click)='toggleDetails(i)'>See more</button>
+                <app-quote-details *ngIf='quote.showAuthor' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+            </div>
+        </div>
     </div>
-</ul>
+</div>
+    
+
 
 
 <!-- <div class="container">
