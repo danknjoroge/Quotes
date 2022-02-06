@@ -41,6 +41,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Open application using code editorof your choice either atom or visual studio.
 * Run ng serve -open to run application with
 
+## Live link
+https://danknjoroge.github.io/Quotes/
+
 ## Technologies and Software Used
 * HTML
 * CSS
