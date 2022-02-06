@@ -51,6 +51,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 For any Querries and support you can reach me through my email address:
 * dank8505@gmail.com
 
-# License
-This project is licensed under the [MIT] (LICENSE)
+## License
+Tis project is under [MIT](LICENSE).
 
