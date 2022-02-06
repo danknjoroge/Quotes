@@ -31,7 +31,7 @@ export class QuoteComponent implements OnInit {
 
 
   constructor() { }
-  name ="Welcome to Quote Website";
+  name ="Welcome to Quote's Website";
 
   ngOnInit(): void {
   }

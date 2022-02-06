@@ -29,3 +29,8 @@ h2{
     color: rgb(0, 128, 111);
     font-weight: bold;
 }
+.head{
+    color: orangered;
+    font-weight: bold;
+    font-size: 35px;
+}
