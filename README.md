@@ -1,10 +1,18 @@
 # Quotes
+## Author
+Daniel Njoroge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+## Description
+It is a project that allows one to add new quote, delete quote and up/downvote a quote
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4. 
+
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
+
 
 ## Code scaffolding
 
@@ -25,3 +33,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Installation And Setup Requirements
+* Have a computer connected to the internet with browser and code editor installed.
+* Open Terminal
+* Clone the repository to your machine from https://github.   com/danknjoroge/Quotes.git
+* Open application using code editorof your choice either atom or visual studio.
+* Run ng serve -open to run application with
+
+## Technologies and Software Used
+* HTML
+* CSS
+* Bootstrap
+* Typescript
+
+## Support And Contact Information
+For any Querries and support you can reach me through my email address:
+* dank8505@gmail.com
+
+# License
+This project is licensed under the [MIT] (LICENSE)
+
