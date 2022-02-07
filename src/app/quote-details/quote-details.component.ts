@@ -16,10 +16,10 @@ export class QuoteDetailsComponent implements OnInit {
     this.isComplete.emit(complete);
   }
   countLike() {
-    this.quote.upvote += 1;
+    this.quote.upvote ++;
   }
   countDislike(){
-    this.quote.downvote += 1;
+    this.quote.downvote ++;
 
   }
   constructor() { }

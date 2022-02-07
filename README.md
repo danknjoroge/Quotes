@@ -50,6 +50,9 @@ https://danknjoroge.github.io/Quotes/
 * Bootstrap
 * Typescript
 
+## Known Issues
+The project is not able to highlight quote with high upvote/downvote
+
 ## Support And Contact Information
 For any Querries and support you can reach me through my email address:
 * dank8505@gmail.com
