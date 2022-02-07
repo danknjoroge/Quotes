@@ -4,8 +4,8 @@
 
 <div class="main mb-3">
     <div>
-        <button (click)="countLike() " class="button"><i class="fas fa-thumbs-up ml-5"></i></button>
-        <button (click)="countDislike() " class=" button"><i class="fas fa-thumbs-down"></i></button>
+        <button (click)="countLike() " class="button"><i class="fas fa-thumbs-up ml-5"> {{quote.upvote}} </i></button>
+        <button (click)="countDislike() " class=" button"><i class="fas fa-thumbs-down" > {{quote.downvote}}</i></button>
     </div>
     <button (click)= 'deleteQuote(true)'class="btn btn-danger">Delete Quote</button>
 
