@@ -1,45 +1,20 @@
 # Quotes
-## Author
-Daniel Njoroge
+## By Daniel Njoroge
 
 ## Description
-It is a project that allows one to add new quote, delete quote and up/downvote a quote
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4. 
+It is a Quotes project that allows one to be able to view existing quotes, add a new quote ,author of the quote and the name of the person posting. It also allows one to be able to vote for the quotes by clicking like button for upvote and dislike button for the downvote. It also populates time that has passed since the quote was posted.
 
+#Screenshots of interface
+![Image](src/assets/home.png)
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-
-
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Installation And Setup Requirements
 * Have a computer connected to the internet with browser and code editor installed.
-* Open Terminal
-* Clone the repository to your machine from https://github.   com/danknjoroge/Quotes.git
-* Open application using code editorof your choice either atom or visual studio.
-* Run ng serve -open to run application with
+* Open Terminal in your computer
+* Clone the repository to your machine from https://github.com/danknjoroge/Quotes.git
+* Open application using code editor of your choice preferrably atom or visual studio.
+* Run ng serve --open to run application withand opens on your browser.
+* Alternatively, you can use the live link provided under the live-link section which only requires network connection and computer with any browser.
 
 ## Live link
 https://danknjoroge.github.io/Quotes/
@@ -50,11 +25,11 @@ https://danknjoroge.github.io/Quotes/
 * Bootstrap
 * Typescript
 
-## Known Issues
+## Known Issues and Bugs
 The project is not able to highlight quote with high upvote/downvote
 
 ## Support And Contact Information
-For any Querries and support you can reach me through my email address:
+For any Querries and support you can reach me via my email address:
 * dank8505@gmail.com
 
 ## License
